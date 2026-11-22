@@ -1,7 +1,7 @@
-from django.shortcuts import render
+
 
 # Create your views here.
-from django.http import JsonResponse  #it will wriite python dict into json http response
+from django.http import JsonResponse  #it will write python dict into json http response
 from django.views.decorators.http import require_GET
 SAMPLE_EVENTS=[
     {
